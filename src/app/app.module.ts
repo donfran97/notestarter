@@ -11,6 +11,9 @@ import { NoteComponent } from './note/note.component';
 import { SearchComponent } from './search/search.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
+import { UniversityComponent } from './university/university.component';
+import { FooterComponent } from './footer/footer.component';
+import { ResponseBoxComponent } from './response-box/response-box.component';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { SignupComponent } from './signup/signup.component';
     NoteComponent,
     SearchComponent,
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    UniversityComponent,
+    FooterComponent,
+    ResponseBoxComponent
   ],
   imports: [
     BrowserModule,
